@@ -1,4 +1,5 @@
 [![tests](https://github.com/rezaakb/napari-seedseg/workflows/tests/badge.svg)](https://github.com/rezaakb/napari-seedseg/actions)
+[![PyPI](https://img.shields.io/pypi/v/napari-seedseg.svg?color=green)](https://pypi.org/project/napari-seedseg)
 
 # napari-seedseg
 
@@ -34,6 +35,11 @@ https://napari.org/stable/plugins/index.html
 ![Demo](https://drive.google.com/uc?export=view&id=1nJypKACvoIUdtM5nlton5NlmCVDFupu7)
 
 ## Installation
+
+You can install `napari-seedseg` via [pip]:
+
+    pip install napari-seedseg
+
 
 To install latest development version :
 
