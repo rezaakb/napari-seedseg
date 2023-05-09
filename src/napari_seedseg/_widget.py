@@ -209,9 +209,9 @@ class SeedSegWidget(Container):
             True if the image is 2-dimensional, otherwise False.
         """
 
-        _image = self._image_layer.value.data
+        _image = np.array(self._image_layer.value.data)
 
-        if _image.ndim != 2:
+        if len(_image.shape) != 2:
             warnings.warn(f'`Image` must be 2-dimensional.')
             return False
         
