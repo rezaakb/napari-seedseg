@@ -59,7 +59,7 @@ class SeedSegWidget(Container):
                 tooltip='A comparison will be done at every point and if within tolerance of the initial value will also be filled '
             )
         )
-
+        self._on_click()
         self._tolerance.changed.connect(self.update_tolerance)
                 
         self._confirm_button = PushButton(text='Confirm', enabled=False)
@@ -220,6 +220,6 @@ class SeedSegWidget(Container):
     
     # For testing stage.
     def _on_click(self):
-        print("napari has", len(self.viewer.layers), "layers")
+        print("napari has run")
 
         

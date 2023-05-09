@@ -6,7 +6,7 @@ def test_1(napari_viewer, capsys):
     # make viewer and add an image layer using our fixture
     viewer = napari_viewer
     viewer.add_image(np.random.random((100, 100)))
-
+    
     # create our widget, passing in the viewer
     my_widget = SeedSegWidget(viewer)
 
@@ -16,4 +16,4 @@ def test_1(napari_viewer, capsys):
     # read captured output and check that it's as we expected
     captured = capsys.readouterr()
 
-    assert captured.out == "napari has 1 layers\n"
+    assert captured.out == "napari has run\n"
