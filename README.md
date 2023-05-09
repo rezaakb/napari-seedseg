@@ -39,7 +39,7 @@ To install latest development version :
 
 
 ## Packages
-In this project we have used these packages:
+In this project, we have used these packages:
 
     numpy
     magicgui
