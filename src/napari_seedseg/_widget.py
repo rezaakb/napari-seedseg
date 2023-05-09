@@ -59,7 +59,7 @@ class SeedSegWidget(Container):
                 tooltip='A comparison will be done at every point and if within tolerance of the initial value will also be filled '
             )
         )
-        self._on_click()
+
         self._tolerance.changed.connect(self.update_tolerance)
                 
         self._confirm_button = PushButton(text='Confirm', enabled=False)
@@ -68,8 +68,7 @@ class SeedSegWidget(Container):
         self._image_layer.changed.connect(set_button_status)
 
         self.extend([self._image_layer, self._tolerance, self._confirm_button])
-
-
+        
     def on_confirm(self) -> None:
         """
         Triggered when the 'Confirm' button is clicked. Initializes the segmentation method and layers.
