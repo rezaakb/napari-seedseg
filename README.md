@@ -14,9 +14,9 @@ Flood segmentation, also known as flood fill or region growing, is an image segm
     ├── src/napari_seedseg     
     │   ├── napari.yaml        # Load and stress tests
     │   ├── __init.py__        # Python package metadata files
-    |   ├── _widget.py         # Python package metadata files
-    │   ├── _layers.py         # Widget contributions
-    │   ├── _method.py         # Layers contributions
+    |   ├── _widget.py         # Widget contributions
+    │   ├── _layers.py         # Layers contributions
+    │   ├── _method.py         # Method contributions
     │   └── _test              # Test cases
     └── ...
 
