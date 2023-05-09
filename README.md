@@ -51,7 +51,7 @@ To install latest development version :
 
 1. Launch napari and open the image you want to segment. Please note that the plugin only supports 2D Greyscale images.
 2. Go to the "Plugins" menu and select the segmentation plugin.
-3. In the segmentation plugin window, select the desired tolerance level and click "Confirm" to generate the initial segments.
+3. In the segmentation plugin window, select the desired tolerance level and click "Confirm" to initialize contour and segmentation layer, and the method with given tolerance.
 4. Move your mouse over the image to visualize the segments.
 5. Click on each segment to add it to the Segmentation Layer. 
 6. To refine the segmentation, repeat step 3 and adjust the tolerance level as needed.
