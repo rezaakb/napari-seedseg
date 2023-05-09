@@ -7,7 +7,19 @@
 [![codecov](https://codecov.io/gh/rezaakb/napari-seedseg/branch/main/graph/badge.svg)](https://codecov.io/gh/rezaakb/napari-seedseg)
 [![napari hub](https://img.shields.io/endpoint?url=https://api.napari-hub.org/shields/napari-seedseg)](https://napari-hub.org/plugins/napari-seedseg)
 
-A simple plugin for segmentation
+A simple plugin for 2D medical image segmentation. In this project, we are trying to use Flood method for segmentation. 
+Flood segmentation, also known as flood fill or region growing, is an image segmentation technique that starts from a seed point and expands to neighboring pixels with similar properties (e.g., intensity, color). In our project, you only can segment one label at the time. Below is a description of the repository's structure and the purpose of each file:
+
+    .
+    ├── setup.cfg              # package metadata
+    ├── pyproject.toml         # use setuptools
+    ├── src/napari_seedseg     
+    │   ├── napari.yaml        # Load and stress tests
+    │   ├── __init.py__        # Python package metadata files
+    │   ├── _widget.py         # Widget contributions
+    │   ├── _layers.py         # Layers contributions
+    │   └── _method.py         # Methods contributions
+    └── ...
 
 ----------------------------------
 
@@ -32,6 +44,17 @@ You can install `napari-seedseg` via [pip]:
 To install latest development version :
 
     pip install git+https://github.com/rezaakb/napari-seedseg.git
+
+
+## Packages
+In this project we have used these packages:
+
+    numpy
+    magicgui
+    qtpy
+    opencv-python-headless
+    scikit-image>=0.19.3
+
 
 
 ## Contributing
