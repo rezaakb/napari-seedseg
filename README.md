@@ -1,3 +1,10 @@
+[![License BSD-3](https://img.shields.io/pypi/l/napari-seedseg.svg?color=green)](https://github.com/rezaakb/napari-seedseg/raw/main/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/napari-seedseg.svg?color=green)](https://pypi.org/project/napari-seedseg)
+[![Python Version](https://img.shields.io/pypi/pyversions/napari-seedseg.svg?color=green)](https://python.org)
+[![tests](https://github.com/rezaakb/napari-seedseg/workflows/tests/badge.svg)](https://github.com/rezaakb/napari-seedseg/actions)
+[![codecov](https://codecov.io/gh/rezaakb/napari-seedseg/branch/main/graph/badge.svg)](https://codecov.io/gh/rezaakb/napari-seedseg)
+[![napari hub](https://img.shields.io/endpoint?url=https://api.napari-hub.org/shields/napari-seedseg)](https://napari-hub.org/plugins/napari-seedseg)
+
 # napari-seedseg
 
 A simple plugin for 2D medical image segmentation. In this project, we are trying to use Flood method for segmentation. 
