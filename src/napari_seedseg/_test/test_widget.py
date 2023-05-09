@@ -4,7 +4,7 @@ from napari_seedseg import SeedSegWidget
 
 def test_1(make_napari_viewer, capsys):
     # make viewer and add an image layer using our fixture
-    viewer = make_napari_viewer
+    viewer = make_napari_viewer()
     viewer.add_image(np.random.random((100, 100)))
     
     # create our widget, passing in the viewer
