@@ -48,7 +48,7 @@ You can install `napari-seedseg` via [pip]:
     pip install napari-seedseg
     
 
-Alternatively, to install latest development version :
+Alternatively, to install latest development version:
 
     pip install git+https://github.com/rezaakb/napari-seedseg.git
 
