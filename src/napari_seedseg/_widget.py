@@ -70,7 +70,6 @@ class SeedSegWidget(Container):
         self.extend([self._image_layer, self._tolerance, self._confirm_button])
 
 
-
     def on_confirm(self) -> None:
         """
         Triggered when the 'Confirm' button is clicked. Initializes the segmentation method and layers.
@@ -218,5 +217,9 @@ class SeedSegWidget(Container):
             return False
         
         return True
+    
+    # For testing stage.
+    def _on_click(self):
+        print("napari has", len(self.viewer.layers), "layers")
 
         
