@@ -2,9 +2,9 @@ import numpy as np
 
 from napari_seedseg import SeedSegWidget
 
-def test_example_q_widget(make_napari_viewer, capsys):
+def test_1(napari_viewer, capsys):
     # make viewer and add an image layer using our fixture
-    viewer = make_napari_viewer()
+    viewer = napari_viewer
     viewer.add_image(np.random.random((100, 100)))
 
     # create our widget, passing in the viewer
@@ -15,4 +15,5 @@ def test_example_q_widget(make_napari_viewer, capsys):
 
     # read captured output and check that it's as we expected
     captured = capsys.readouterr()
+
     assert captured.out == "napari has 1 layers\n"
