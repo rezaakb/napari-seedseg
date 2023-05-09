@@ -1,5 +1,6 @@
 [![tests](https://github.com/rezaakb/napari-seedseg/workflows/tests/badge.svg)](https://github.com/rezaakb/napari-seedseg/actions)
 [![PyPI](https://img.shields.io/pypi/v/napari-seedseg.svg?color=green)](https://pypi.org/project/napari-seedseg)
+[![codecov](https://codecov.io/gh/rezaakb/napari-seedseg/branch/main/graph/badge.svg)](https://codecov.io/gh/rezaakb/napari-seedseg)
 
 # napari-seedseg
 
