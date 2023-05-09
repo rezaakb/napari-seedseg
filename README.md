@@ -1,12 +1,5 @@
 # napari-seedseg
 
-[![License BSD-3](https://img.shields.io/pypi/l/napari-seedseg.svg?color=green)](https://github.com/rezaakb/napari-seedseg/raw/main/LICENSE)
-[![PyPI](https://img.shields.io/pypi/v/napari-seedseg.svg?color=green)](https://pypi.org/project/napari-seedseg)
-[![Python Version](https://img.shields.io/pypi/pyversions/napari-seedseg.svg?color=green)](https://python.org)
-[![tests](https://github.com/rezaakb/napari-seedseg/workflows/tests/badge.svg)](https://github.com/rezaakb/napari-seedseg/actions)
-[![codecov](https://codecov.io/gh/rezaakb/napari-seedseg/branch/main/graph/badge.svg)](https://codecov.io/gh/rezaakb/napari-seedseg)
-[![napari hub](https://img.shields.io/endpoint?url=https://api.napari-hub.org/shields/napari-seedseg)](https://napari-hub.org/plugins/napari-seedseg)
-
 A simple plugin for 2D medical image segmentation. In this project, we are trying to use Flood method for segmentation. 
 Flood segmentation, also known as flood fill or region growing, is an image segmentation technique that starts from a seed point and expands to neighboring pixels with similar properties (e.g., intensity, color). In our project, you only can segment one label at the time. Below is a description of the repository's structure and the purpose of each file:
 
@@ -16,9 +9,10 @@ Flood segmentation, also known as flood fill or region growing, is an image segm
     ├── src/napari_seedseg     
     │   ├── napari.yaml        # Load and stress tests
     │   ├── __init.py__        # Python package metadata files
-    │   ├── _widget.py         # Widget contributions
-    │   ├── _layers.py         # Layers contributions
-    │   └── _method.py         # Methods contributions
+    |   ├── _widget.py         # Python package metadata files
+    │   ├── _layers.py         # Widget contributions
+    │   ├── _method.py         # Layers contributions
+    │   └── _test              # Test cases
     └── ...
 
 ----------------------------------
@@ -32,6 +26,10 @@ https://github.com/napari/cookiecutter-napari-plugin#getting-started
 and review the napari docs for plugin developers:
 https://napari.org/stable/plugins/index.html
 -->
+
+## Demo
+
+![Demo](https://drive.google.com/uc?export=view&id=1nJypKACvoIUdtM5nlton5NlmCVDFupu7)
 
 ## Installation
 
