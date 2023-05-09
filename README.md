@@ -8,7 +8,7 @@
 # napari-seedseg
 
 A simple plugin for 2D medical image segmentation. In this project, we are trying to use Flood method for segmentation. 
-Flood segmentation, also known as flood fill or region growing, is an image segmentation technique that starts from a seed point and expands to neighboring pixels with similar properties (e.g., intensity, color). In our project, you only can segment one label at the time. Below is a description of the repository's structure and the purpose of each file:
+Flood segmentation, also known as flood fill or region growing, is an image segmentation technique that starts from a seed point and expands to neighboring pixels with similar properties (e.g., intensity, color). In our project, you only can segment one label at the time. Also, please open **2D greyscale** image. Below is a description of the repository's structure and the purpose of each file:
 
     .
     ├── setup.cfg              # package metadata
